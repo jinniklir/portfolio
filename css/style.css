@@ -315,6 +315,17 @@ header {
     margin: 0 auto;
 }
 
+a:link{
+    color:darkgray;
+}
+
+a:visited{
+    color:dimgray;
+}
+
+a:hover{
+    color: var(--clr-accent);
+}
 @media (min-width: 800px) {
     .services {
         display: flex;
