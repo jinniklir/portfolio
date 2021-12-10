@@ -314,18 +314,21 @@ header {
     max-width: 500px;
     margin: 0 auto;
 }
+.unity:link {
+    color: red;
+  }
+  
+.unity:visited {
+    color: green;
+  }
 
-a:link{
-    color:darkgray;
-}
-
-a:visited{
-    color:dimgray;
-}
-
-a:hover{
-    color: var(--clr-accent);
-}
+.unity:hover {
+    color: hotpink;
+  }
+  
+.unity:active {
+    color: blue;
+  }
 @media (min-width: 800px) {
     .services {
         display: flex;
